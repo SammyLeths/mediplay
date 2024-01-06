@@ -12390,7 +12390,12 @@ textarea.form-control-lg {
   margin-bottom: -150px;
 }
 .contact-section .contact-form-wrapper {
-  padding: 60px;
+  padding: 40px;
+}
+@media (min-width: 768px) {
+  .contact-section .contact-form-wrapper {
+    padding: 60px;
+  }
 }
 .contact-section #message {
   height: 100px;

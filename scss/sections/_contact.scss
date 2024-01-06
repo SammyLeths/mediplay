@@ -15,7 +15,11 @@
   }
 
   .contact-form-wrapper {
-    padding: 60px;
+    padding: 40px;
+
+    @include media-breakpoint-up(md) {
+      padding: 60px;
+    }
   }
 
   #message {
