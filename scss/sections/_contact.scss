@@ -1,0 +1,24 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contact-section {
+  .contact-intro {
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+  }
+
+  .contact-form {
+    margin-bottom: -150px;
+  }
+
+  .contact-form-wrapper {
+    padding: 60px;
+  }
+
+  #message {
+    height: 100px;
+  }
+}

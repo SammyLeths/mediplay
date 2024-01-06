@@ -1,0 +1,165 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.features-section {
+  .heading {
+    @include mediplay;
+  }
+
+  .features-text {
+    width: 100%;
+    @include mediplay;
+
+    @include media-breakpoint-up(lg) {
+      width: 50%;
+    }
+  }
+}
+
+.features-right-section {
+  .feature-mock {
+    img {
+      width: 65%;
+      margin-right: 0px;
+      margin-bottom: -150px;
+      z-index: 99;
+
+      @include media-breakpoint-up(md) {
+        width: 100%;
+        margin-right: -190px;
+        margin-bottom: 0;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 85%;
+        margin-right: -150px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 65%;
+        margin-right: -140px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 65%;
+        margin-right: -170px;
+      }
+    }
+  }
+
+  .feature {
+    background-color: $success-100;
+    padding: 10rem 3rem 3rem 3rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 3rem 3rem 3rem 150px;
+      border-top-right-radius: 0 !important;
+      border-bottom-left-radius: 2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 3rem 3rem 3rem 200px;
+      // border-top-right-radius: 0 !important;
+      // border-bottom-left-radius: 2rem;
+    }
+
+    .feature-content {
+      width: 100%;
+
+      @include media-breakpoint-up(md) {
+        width: 80%;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 80%;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 50%;
+      }
+    }
+  }
+
+  .game {
+    background-color: $error-100 !important;
+  }
+}
+
+.features-left-section {
+  .feature-mock {
+    img {
+      width: 65%;
+      margin-left: 0;
+      margin-bottom: -150px;
+      z-index: 99;
+
+      @include media-breakpoint-up(md) {
+        width: 100%;
+        margin-left: -190px;
+        margin-bottom: 0;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 85%;
+        margin-left: -150px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 65%;
+        margin-left: -140px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        width: 65%;
+        margin-left: -170px;
+      }
+    }
+  }
+
+  .feature {
+    background-color: $warning-100;
+    padding: 10rem 3rem 3rem 3rem;
+
+    @include media-breakpoint-up(md) {
+      padding: 3rem 100px 3rem 3rem;
+      border-bottom-right-radius: 2rem;
+      border-top-left-radius: 0 !important;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 3rem 200px 3rem 3rem;
+      // border-bottom-right-radius: 2rem;
+      // border-top-left-radius: 0 !important;
+    }
+
+    .feature-content {
+      width: 100%;
+
+      @include media-breakpoint-up(md) {
+        width: 80%;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 80%;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 50%;
+      }
+    }
+  }
+
+  .reward {
+    background-color: $gray-200 !important;
+
+    .feature-icon,
+    .sub-heading {
+      color: $gray-700;
+    }
+  }
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}

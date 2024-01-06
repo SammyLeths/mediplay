@@ -1,0 +1,16 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.footer-section {
+  .logo {
+    @include mediplay-alt;
+  }
+
+  .footer-details {
+    padding-top: 120px;
+  }
+
+  a:hover {
+    color: $blue-800 !important;
+  }
+}

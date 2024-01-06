@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediPlay Informational Website</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#spy-section">
+
+  <!-- START NAVBAR SECTION -->
+
+  <nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top" id="spy-section">
+    <div class="container">
+      <a class="navbar-brand fs-2" href="#">Medi<span>Play</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end px-4 px-lg-0" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header px-lg-5">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a class="navbar-brand fs-2"
+              href="#">Medi<span>Play</span></a></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body px-lg-5 px-xl-0">
+          <ul class="navbar-nav justify-content-start flex-grow-1 ps-xl-5 gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#features" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#medication">Medication</a></li>
+                <li><a class="dropdown-item" href="#calendar">Calendar</a></li>
+                <li><a class="dropdown-item" href="#game">Game</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#reward">Reward System</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hiw">How it Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex flex-column flex-xl-row gap-4">
+            <ul class="navbar-nav">
+              <li class="nav-item mt-3 mt-xl-0">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Log in</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#signupModal">Try
+              MediPlay Now <i class="fa-solid fa-angles-right"></i></button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- START THE INTRO SECTION -->
+
+  <section id="home" class="intro-section pt-xl-4">
+    <div class="container pt-5 pb-5">
+      <div class="row d-flex align-items-center px-3 px-lg-0 pt-5 pb-3">
+        <div class="col-12 col-xl-7 hero-content">
+          <h1 class="fw-bold pb-3">Seamlessly Manage the Medication Journey</h1>
+          <h2 class="fw-bold text-dark text-opacity-75">Motivate your child and ward to</h2>
+          <p class="pb-3"><span class="badge text-bg-secondary fw-semibold text-white mt-2 me-1">take
+              responsibility</span> <span class="badge text-bg-danger fw-semibold text-white mt-2 me-1">establish a
+              routine</span>
+            <span class="badge text-bg-primary fw-semibold text-white mt-2 me-1">develop interest</span>
+            <span class="badge text-bg-success fw-semibold text-white mt-2 me-1">take their medication</span> <span
+              class="badge text-bg-warning fw-semibold text-white mt-2 me-1">foster positive relationship</span>
+          </p>
+          <p class="fs-5 hero-text">Avoid rift betweeen you and your ward when enforcing medication routines.
+            Choose
+            Medi<span>Play</span> and watch your child's health improve drastically.</p>
+          <button type="button" class="btn btn-primary btn-lg mt-3 d-none">Try MediPlay Now <i
+              class="fa-solid fa-angles-right"></i></button>
+          <div class="d-flex gap-4 app-cta pt-3">
+            <img src="assets/images/app-store-1.png" class="" alt="App Store">
+            <img src="assets/images/play-store-1.png" class="" alt="Play Store">
+          </div>
+        </div>
+        <div class="col-12 col-xl-5 app-mock pt-5 pt-lg-0">
+          <img class="img-fluid" src="/assets/images/main-mock.png" alt="MediPlay Mobile App">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START THE FEATURED IN SECTION -->
+
+  <section id="featured" class="featured-section py-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 bg-primary featured-heading d-lg-flex align-items-center">
+          <h3 class="text-white mb-0 text-center p-3 p-lg-0 mt-md-4 mt-lg-0">As Featured In:</h3>
+        </div>
+        <div class="col-md-9">
+          <div class="row p-4 d-flex row-gap-3 align-items-center  featured-wrapper">
+            <div class="col-6 col-md-4 col-lg-2 text-center">
+              <img src="assets/images/c2-google.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 text-center">
+              <img src="assets/images/c4-airbnb.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 text-center">
+              <img src="assets/images/c8-amazon.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 text-center">
+              <img src="assets/images/c9-microsoft.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 text-center">
+              <img src="assets/images/c3-walmart.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 text-center featured-logo-row">
+              <img src="assets/images/c6-cnn.png" class="featured-logo img-fluid" alt="Google">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START THE ABOUT SECTION -->
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row about-content rounded-4 py-5 px-3 px-md-5 px-xl-0 mx-1">
+        <div class="col-md-12">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-12 col-xl-3">
+              <div class="row mock-wrapper d-none d-md-flex d-xl-none">
+                <div class="col-md-6">
+                  <img src="assets/images/game-mock.png" class="img-fluid left-mock d-block mx-auto" alt="">
+                </div>
+                <div class="col-md-6">
+                  <img src="assets/images/calendar-mock.png" class="img-fluid right-mock d-block mx-auto" alt="">
+                </div>
+              </div>
+              <img src="assets/images/game-mock.png" class="img-fluid left-mock d-block mx-auto d-md-none d-xl-block"
+                alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 text-center about-text">
+              <h1>About Us</h1>
+              <p class="about-intro">Parents complained there wasn’t a way to keep their childs medication in
+                one place, while
+                being reminded of
+                when their child has to take it. Parents also complained that they had to be stern. We stepped in with
+                Medi<span>Play</span> to fill this gap </p>
+              <div class="row d-flex row-gap-4 align-items-center justify-content-center pt-4 pt-lg-0">
+                <div class="col-6 col-md-2">
+                  <img src="assets/images/grace.jpeg" class="img-fluid rounded-4 border border-4 border-white" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                  <img src="assets/images/salman-2.jpg" class="img-fluid rounded-4 border border-4 border-white" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                  <img src="assets/images/arzu-2.jpg" class="img-fluid rounded-4 border border-4 border-white" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                  <img src="assets/images/sammy.jpeg" class="img-fluid rounded-4 border border-4 border-white" alt="">
+                </div>
+                <div class="col-6 col-md-2">
+                  <img src="assets/images/swanand-2.jpeg" class="img-fluid rounded-4 border border-4 border-white"
+                    alt="">
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-12 col-xl-3">
+              <img src="assets/images/calendar-mock.png"
+                class="img-fluid right-mock d-block d-md-none d-xl-block mx-auto" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START THE FEATURES SECTION -->
+
+  <section id="features" class="features-section pt-md-5 pt-lg-0">
+    <div class="container pt-md-5 pt-lg-0">
+      <div class="row px-3 px-lg-0 pt-md-5 pt-lg-0">
+        <div class="col-md-8">
+          <h1 class="heading">Features of Medi<span>Play</span></h1>
+          <p class="features-text">Medi<span>Play</span> offers a wide range of innovative features to ensure effective
+            medication
+            tracking while eradicating occurences of missed meds.</p>
+        </div>
+        <div class="col-md-4 text-start text-md-end">
+          <a href="#medication" class="btn btn-primary mt-2">View All <i class="fa-solid fa-angles-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START FEATURE 1 - MEDICATION -->
+
+  <section id="medication" class="features-right-section">
+    <div class="container-fluid">
+      <div class="row py-5 feature-right">
+        <div
+          class="col-md-3 col-lg-4 feature-mock d-flex justify-content-center justify-content-lg-end align-items-center">
+          <img src="assets/images/medication-mockup-sm.png" class="img-fluid" alt="">
+        </div>
+        <div
+          class="col-md-9 col-lg-8 d-flex flex-column justify-content-center align-items-start feature rounded-top-5">
+          <div class="feature-content">
+            <div class="feature-icon d-flex justify-content-center align-items-center rounded-4 bg-white mb-4"><i
+                class="fa-solid fa-pills fa-2xl text-success"></i></div>
+            <span class="sub-heading text-success">TRACKING</span>
+            <h2 class="fw-bold mb-4">Medication</h2>
+            <p class="mb-0">The medication tracking feature in our app is designed to empower users in managing their
+              health with ease and
+              precision. Through a user-friendly interface, individuals can effortlessly input and monitor their
+              medication schedules,
+              ensuring timely and consistent adherence to prescribed regimens. The app provides customizable reminders,
+              allowing users
+              to receive timely notifications for each dose.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START FEATURE 2 - CALENDAR -->
+
+  <section id="calendar" class="features-left-section">
+    <div class="container-fluid">
+      <div class="row py-5 feature-left">
+        <div class="col-md-9 col-lg-8 d-flex justify-content-end align-items-center feature rounded-top-5">
+          <div class="feature-content">
+            <div class="feature-icon d-flex justify-content-center align-items-center rounded-4 bg-white mb-4"><i
+                class="fa-solid fa-calendar fa-2xl text-warning"></i></div>
+            <span class="sub-heading text-warning">OVERVIEW</span>
+            <h2 class="fw-bold mb-4">Calendar</h2>
+            <p class="mb-0">The calendar feature in our medication tracking app is an essential component for fostering
+              organization and seamless
+              management of healthcare routines. Users can effortlessly schedule and view their medication plans on a
+              monthly, weekly,
+              or daily basis, facilitating a clear overview of their treatment schedules. Color-coded entries and
+              intuitive symbols
+              help users distinguish between different medications and dosage timings at a glance.</p>
+          </div>
+        </div>
+        <div
+          class="col-md-3 col-lg-4 feature-mock d-flex justify-content-center justify-content-lg-start align-items-center order-first order-md-last">
+          <img src="assets/images/calendar-mock-2.png" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- START FEATURE 3 - GAME -->
+
+  <section id="game" class="features-right-section">
+    <div class="container-fluid">
+      <div class="row py-5 feature-right">
+        <div
+          class="col-md-3 col-lg-4 feature-mock d-flex justify-content-center justify-content-lg-end align-items-center">
+          <img src="assets/images/game-mockup-sm.png" class="img-fluid" alt="">
+        </div>
+        <div
+          class="col-md-9 col-lg-8 game d-flex flex-column justify-content-center align-items-start feature rounded-top-5">
+          <div class="feature-content">
+            <div class="feature-icon d-flex justify-content-center align-items-center rounded-4 bg-white mb-4"><i
+                class="fa-solid fa-gamepad fa-2xl text-danger"></i></div>
+            <span class="sub-heading text-danger">FUN</span>
+            <h2 class="fw-bold mb-4">Game</h2>
+            <p class="mb-0">The game feature in our medication tracking app adds an element of engagement and motivation
+              to the health management
+              experience. Users can participate in interactive and rewarding games that are designed to coincide with
+              their medication
+              schedules. Completing daily or weekly challenges related to medication adherence unlocks achievements and
+              rewards,
+              turning the often mundane task of medication management into an enjoyable and fulfilling activity.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START FEATURE 4 - REWARDS -->
+
+  <section id="reward" class="features-left-section pb-5">
+    <div class="container-fluid">
+      <div class="row py-5 feature-left">
+        <div class="col-md-9 col-lg-8 reward d-flex justify-content-end align-items-center feature rounded-top-5">
+          <div class="feature-content">
+            <div class="feature-icon d-flex justify-content-center align-items-center rounded-4 bg-white mb-4"><i
+                class="fa-solid fa-award fa-2xl"></i></div>
+            <span class="sub-heading">ACHIEVEMENT</span>
+            <h2 class="fw-bold mb-4">Rewards</h2>
+            <p class="mb-0">Our medication tracking app introduces a reward and badges feature to celebrate and
+              acknowledge users' commitment to
+              their health. As users consistently adhere to their medication schedules, they earn badges and unlock
+              rewarding
+              milestones. These virtual achievements not only serve as a tangible recognition of their dedication but
+              also act as
+              positive reinforcement to foster continued adherence.</p>
+          </div>
+        </div>
+        <div
+          class="col-md-3 col-lg-4 feature-mock d-flex justify-content-center justify-content-lg-start align-items-center order-first order-md-last">
+          <img src="assets/images/rewards-mockup-sm.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START HOW IT WORKS SECTION -->
+
+  <section id="hiw" class="how-it-works-section">
+    <div class="container-fluid py-5 hiw-heading">
+      <div class="row pt-4">
+        <div class="col-md-12 d-flex justify-content-center">
+          <div class="text-center hiw-text">
+            <h1>How it Works</h1>
+            <p>Medi<span>Play</span> works in 4 easy steps and getting started is very straight forward. First sign
+              up for free, then
+              setup medications. Track it and give rewards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container hiw-body pb-5">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 hiw-cards">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-5 g-lg-4 text-center">
+            <div class="col hiw-card mb-5 mb-xl-0">
+              <div class="card h-100 shadow p-4 rounded-4">
+                <div class="steps-wrapper d-flex bg-white justify-content-center align-items-center">
+                  <div class="steps d-flex bg-white justify-content-center align-items-center rounded-circle">
+                    <div
+                      class="number d-flex bg-white justify-content-center align-items-center p-3 border border-4 border-primary rounded-circle fw-bold text-primary fs-4">
+                      1</div>
+                  </div>
+                </div>
+                <img src="assets/images/signup-001.svg" class="card-img-top px-4 py-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-semibold pb-3">Sign up for free</h5>
+                  <p class="card-text mb-0">Provide some basic information such as your address and mortgage information
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col hiw-card mb-5 mb-xl-0">
+              <div class="card h-100 shadow p-4 rounded-4">
+                <div class="steps-wrapper d-flex bg-white justify-content-center align-items-center">
+                  <div class="steps d-flex bg-white justify-content-center align-items-center rounded-circle">
+                    <div
+                      class="number d-flex bg-white justify-content-center align-items-center p-3 border border-4 border-primary rounded-circle fw-bold text-primary fs-4">
+                      2</div>
+                  </div>
+                </div>
+                <img src="assets/images/setup-001.svg" class="card-img-top px-4 py-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-semibold pb-3">Set Medication</h5>
+                  <p class="card-text">Add all medication schedules including reminders, game and reward points</p>
+                </div>
+              </div>
+            </div>
+            <div class="col hiw-card mb-5 mb-xl-0">
+              <div class="card h-100 shadow p-4 rounded-4">
+                <div class="steps-wrapper d-flex bg-white justify-content-center align-items-center">
+                  <div class="steps d-flex bg-white justify-content-center align-items-center rounded-circle">
+                    <div
+                      class="number d-flex bg-white justify-content-center align-items-center p-3 border border-4 border-primary rounded-circle fw-bold text-primary fs-4">
+                      3</div>
+                  </div>
+                </div>
+                <img src="assets/images/track-001.svg" class="card-img-top px-4 py-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-semibold pb-3">Track Medication</h5>
+                  <p class="card-text">Analyze and track medication intake, check up on progress from one dashboard</p>
+                </div>
+              </div>
+            </div>
+            <div class="col hiw-card mb-md-5 mb-xl-0">
+              <div class="card h-100 shadow p-4 rounded-4">
+                <div class="steps-wrapper d-flex bg-white justify-content-center align-items-center">
+                  <div class="steps d-flex bg-white justify-content-center align-items-center rounded-circle">
+                    <div
+                      class="number d-flex bg-white justify-content-center align-items-center p-3 border border-4 border-primary rounded-circle fw-bold text-primary fs-4">
+                      4</div>
+                  </div>
+                </div>
+                <img src="assets/images/reward-001.svg" class="card-img-top px-4 py-3" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title fw-semibold pb-3">Give Rewards</h5>
+                  <p class="card-text">Setup game and respective reward points as relating to medication schedule</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START REVIEWS SECTION -->
+
+  <section id="reviews" class="reviews-section py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-5 mb-5 mb-lg-0">
+          <div class="px-3 px-lg-0">
+            <h1 class="heading mb-3">Our Clients Say</h1>
+            <p class="review-text">Many of our app users have sent in great reviews about our app. Here we have selected
+              a few for you to know about how much we are loved.</p>
+          </div>
+        </div>
+        <div class="col-md-12 col-lg-7">
+          <div id="reviewsSlide" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-white" data-bs-interval="10000">
+                <div class="reviews-block d-flex flex-column flex-lg-row">
+                  <div class="blockquote ps-3 ps-lg-0 mb-0">
+                    <i class="fa-solid fa-quote-right"></i>
+                  </div>
+                  <div class="reviews-content p-3 p-lg-5 pt-lg-0 pe-lg-0">
+                    <p class="fs-2 fw-medium pb-5 client-review">Medi<span>Play</span> development team shows a lot of
+                      focus on quality, speed, and
+                      consistency. They also have a strong ability to build
+                      quickly.</p>
+                    <div class="reviews-row pt-5 border-top d-flex flex-row align-items-center">
+                      <div class="reviews-client d-flex justify-content-start align-items-center gap-3">
+                        <img src="assets/images/arzu-2.jpg" class="client-img rounded-circle" alt="">
+                        <div class="client-details">
+                          <h5 class="fw-semibold mb-1 fs-6 fs-lg-4">Walker</h5>
+                          <p class="mb-0 fs-7">CEO</p>
+                        </div>
+                      </div>
+                      <p class="review-company mb-0 ms-auto">Upside</p>
+                      <div class="review-controls ms-4 ms-lg-5">
+                        <i class="fa-solid fa-arrow-left-long fa-xl me-4" data-bs-target="#reviewsSlide"
+                          data-bs-slide="prev"></i>
+                        <i class="fa-solid fa-arrow-right-long fa-xl" data-bs-target="#reviewsSlide"
+                          data-bs-slide="next"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item bg-white" data-bs-interval="10000">
+                <div class="reviews-block d-flex flex-column flex-lg-row">
+                  <div class="blockquote ps-3 ps-lg-0 mb-0">
+                    <i class="fa-solid fa-quote-right"></i>
+                  </div>
+                  <div class="reviews-content p-3 p-lg-5 pt-lg-0 pe-lg-0">
+                    <p class="fs-2 fw-medium pb-5 client-review">Medi<span>Play</span> visual design is excellent
+                      including iconography,
+                      typography, etc. The development team are experts at what they do.</p>
+                    <div class="reviews-row pt-5 border-top d-flex flex-row align-items-center">
+                      <div class="reviews-client d-flex justify-content-start align-items-center gap-3">
+                        <img src="assets/images/swanand-2.jpeg" class="client-img rounded-circle" alt="">
+                        <div class="client-details">
+                          <h5 class="fw-semibold mb-1 fs-6 fs-lg-4">Swanand</h5>
+                          <p class="mb-0 fs-7">Director</p>
+                        </div>
+                      </div>
+                      <p class="review-company mb-0 ms-auto">Kulkarni Inc.</p>
+                      <div class="review-controls ms-4 ms-lg-5">
+                        <i class="fa-solid fa-arrow-left-long fa-xl me-4" data-bs-target="#reviewsSlide"
+                          data-bs-slide="prev"></i>
+                        <i class="fa-solid fa-arrow-right-long fa-xl" data-bs-target="#reviewsSlide"
+                          data-bs-slide="next"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item bg-white" data-bs-interval="10000">
+                <div class="reviews-block d-flex flex-column flex-lg-row">
+                  <div class="blockquote ps-3 ps-lg-0 mb-0">
+                    <i class="fa-solid fa-quote-right"></i>
+                  </div>
+                  <div class="reviews-content p-3 p-lg-5 pt-lg-0 pe-lg-0">
+                    <p class="fs-2 fw-medium pb-5 client-review">The team at Medi<span>Play</span> think about products
+                      in terms of how it works
+                      and not just how
+                      it looks. They’re professionals and seasoned experts at what they do.</p>
+                    <div class="reviews-row pt-5 border-top d-flex flex-row align-items-center">
+                      <div class="reviews-client d-flex justify-content-start align-items-center gap-3">
+                        <img src="assets/images/salman-2.jpg" class="client-img rounded-circle" alt="">
+                        <div class="client-details">
+                          <h5 class="fw-semibold mb-1 fs-6 fs-lg-4">Salman</h5>
+                          <p class="mb-0 fs-7">Designer</p>
+                        </div>
+                      </div>
+                      <p class="review-company mb-0 ms-auto">Sha Coprs</p>
+                      <div class="review-controls ms-4 ms-lg-5">
+                        <i class="fa-solid fa-arrow-left-long fa-xl me-4" data-bs-target="#reviewsSlide"
+                          data-bs-slide="prev"></i>
+                        <i class="fa-solid fa-arrow-right-long fa-xl" data-bs-target="#reviewsSlide"
+                          data-bs-slide="next"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START CONTACT SECTION -->
+
+  <section id="contact" class="contact-section pt-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6 pb-5">
+          <div class="px-3 px-lg-0">
+            <div class="contact-intro">
+              <h1 class="mb-3">Get In Touch</h1>
+              <p class="mb-5">If you need someone to talk to about medication tracking, we listen. We won't judge or
+                tell you what to do. Call us
+                any time, day or night. Write
+                us an email.</p>
+            </div>
+            <div class="contact-info d-flex flex-column gap-4 pb-5">
+              <div class="contact-item d-flex align-items-center gap-3"><i
+                  class="fa-regular fa-envelope me-3 text-primary fa-xl"></i>
+                <p class="mb-0 fs-5">info@mediplay.co.uk</p>
+              </div>
+              <div class="contact-item d-flex align-items-center gap-3"><i
+                  class="fa-solid fa-mobile-screen me-3 text-primary fa-xl"></i>
+                <p class="mb-0 fs-5">+44 016 7555 276</p>
+              </div>
+              <div class="contact-item d-flex align-items-center gap-3"><i
+                  class="fa-solid fa-location-dot me-3 text-primary fa-xl"></i>
+                <p class="mb-0 fs-5">The Heights, 30 Staniforth Street.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 contact-form">
+          <div class="contact-form-wrapper mx-3 mx-lg-0 rounded-4 shadow bg-white h-100">
+            <h2>Say Something</h2>
+            <div class="form-wrapper pt-4">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="fullName" placeholder="John Thoman">
+                <label for="fullName">Full Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="phoneNumber" placeholder="Phone">
+                <label for="phoneNumber">Phone Number</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="subject" placeholder="I want to enquire about pricing">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a detailed message here" id="message"></textarea>
+                <label for="message">Message</label>
+              </div>
+              <div class="d-grid">
+                <button class="btn btn-primary btn-lg" type="button">Send Message <i
+                    class="fa-solid fa-angles-right"></i> </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- START FOOTER SECTION -->
+
+  <footer id="footer" class="footer-section bg-primary py-5">
+    <div class="container py-5">
+      <div class="row footer-details px-3 px-lg-0">
+        <div class="col-md-12 col-lg-4 pe-lg-5 pb-5 pb-lg-0">
+          <h1 class="logo pb-3">Medi<span>Play</span></h1>
+          <p class="text-white">Avoid rift betweeen you and your ward when enforcing medication routines. Choose us and
+            watch your child's health
+            improve drastically.</p>
+        </div>
+        <div class="col-md-12 col-lg-4 pb-5 pb-lg-0 d-flex flex-column justify-content-start justify-content-lg-end">
+          <h4 class="text-white fw-semibold pb-3">Unique Edge</h4>
+          <p class="text-white">With this app, tracking and scheduling are a breeze. The game feature makes it
+            surprisingly enjoyable.</p>
+        </div>
+        <div class="col-md-12 col-lg-4 pt-3 pt-lg-0 d-flex flex-column justify-content-end align-items-lg-end">
+          <div class="d-flex gap-4 pb-4 mb-3">
+            <a href="#" class="text-white"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5 px-3 px-lg-0">
+        <div class="col-md-12 pt-3">
+          <ul class="list-group list-group-horizontal gap-4 d-flex flex-wrap justify-content-between">
+            <li class="list-group-item p-0 bg-transparent border-0 text-white"><a class="text-white link-offset-3"
+                href="#home">HOME</a></li>
+            <li class="list-group-item p-0 bg-transparent border-0 text-white"><a class="text-white link-offset-3"
+                href="#about">ABOUT</a></li>
+            <li class="list-group-item p-0 bg-transparent border-0"><a class="text-white link-offset-3"
+                href="#features">FEATURES</a>
+            </li>
+            <li class="list-group-item p-0 bg-transparent border-0 text-white"><a class="text-white link-offset-3"
+                href="#hiw">HOW IT WORKS</a></li>
+            <li class="list-group-item p-0 bg-transparent border-0 text-white"><a class="text-white link-offset-3"
+                href="#reviews">REVIEWS</a></li>
+            <li class="list-group-item p-0 bg-transparent border-0 text-white"><a class="text-white link-offset-3"
+                href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- START MODAL SECTION -->
+
+  <!-- Login Modal -->
+
+  <div class="modal fade login-modal" id="loginModal" data-bs-backdrop="static" tabindex="-1"
+    aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close pt-4 pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pe-5 ps-5 pb-5 pt-2">
+          <h3 class="modal-heading text-center pb-4">Medi<span>Play</span> Account</h3>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com">
+            <label for="loginEmail">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+            <label for="loginPassword">Password</label>
+          </div>
+          <div class="d-grid text-center">
+            <button class="btn btn-primary btn-lg" type="button">Login <i class="fa-solid fa-angles-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign up Modal -->
+
+  <div class="modal fade signup-modal" id="signupModal" data-bs-backdrop="static" tabindex="-1"
+    aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn-close pt-4 pe-4" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body pe-5 ps-5 pb-5 pt-2">
+          <h3 class="text-center">Start Your 14-Day Free Trial</h3>
+          <h5 class="modal-subheading text-center pb-4">Take Medi<span>Play</span> For a Spin</h5>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="firstName" placeholder="John Thoman">
+            <label for="firstName">First Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="lastName" placeholder="John Thoman">
+            <label for="lastName">Last Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="signupEmail" placeholder="name@example.com">
+            <label for="signupEmail">Email address</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="signupPassword" placeholder="Password">
+            <label for="signupPassword">Password</label>
+          </div>
+          <div class="d-grid text-center">
+            <button class="btn btn-primary btn-lg" type="button">Start Free Trial <i
+                class="fa-solid fa-angles-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.intro-section {
+  h1 {
+    font-size: 2rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 3.5rem;
+    }
+  }
+
+  h2 {
+    font-size: 1.5rem;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 2.5rem;
+    }
+  }
+
+  span {
+    font-size: 1rem;
+
+    @include media-breakpoint-up(md) {
+      font-size: 1.25rem;
+    }
+  }
+
+  .hero-text {
+    width: 100%;
+    @include mediplay;
+
+    span {
+      font-size: 1.25rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+  }
+
+  .app-cta {
+    img {
+      cursor: pointer;
+    }
+
+    img:first-child {
+      width: 40%;
+
+      @include media-breakpoint-up(lg) {
+        width: 177px;
+      }
+    }
+
+    img:last-child {
+      width: 40%;
+
+      @include media-breakpoint-up(lg) {
+        width: 199px;
+      }
+    }
+  }
+
+  .app-mock {
+    img {
+      width: 100%;
+
+      @include media-breakpoint-up(lg) {
+        width: 65%;
+        margin-top: 50px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 85%;
+        margin-top: 0px;
+      }
+
+      @include media-breakpoint-up(xxl) {
+        margin-bottom: -10px;
+      }
+    }
+  }
+
+  .badge {
+    //cursor: pointer;
+  }
+
+  .badge:nth-child(1):hover {
+    background-color: $gray-600 !important;
+  }
+
+  .badge:nth-child(2):hover {
+    background-color: $red !important;
+  }
+
+  .badge:nth-child(3):hover {
+    background-color: $blue-800 !important;
+  }
+
+  .badge:nth-child(4):hover {
+    background-color: $green !important;
+  }
+
+  .badge:nth-child(5):hover {
+    background-color: $yellow !important;
+  }
+}

@@ -1,0 +1,14 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.login-modal {
+  .modal-heading {
+    @include mediplay;
+  }
+}
+
+.signup-modal {
+  .modal-subheading {
+    @include mediplay;
+  }
+}

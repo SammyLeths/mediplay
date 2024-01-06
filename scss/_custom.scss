@@ -1,0 +1,77 @@
+// GLOBAL FONT STYLE
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+$font-family-sans-serif: "Inter", sans-serif;
+$font2-family-sans-serif: "Nunito", sans-serif;
+
+// THEME COLORS
+$blue: #0d6efd;
+$blue-800: #192db4;
+$blue-500: #356bfc;
+$blue-300: #90b9ff;
+$blue-200: #c2d8ff;
+
+$red: #dc3545;
+$error-400: #f97066;
+$error-300: #fcb6b1;
+$error-100: #fddcd8;
+
+$yellow: #ffc107;
+$warning-500: #f79009;
+$warning-300: #fbc174;
+$warning-100: #fde4c4;
+
+$green: #198754;
+$success-500: #12b76a;
+$success-300: #90f4c5;
+$success-100: #c7f9e2;
+
+$disabled: #d9d9d9;
+
+$indigo: #6610f2;
+$cyan: #0dcaf0;
+
+// WHITE AND GRAY COLORS
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+
+// MAIN COLORS OVERRIDES
+$primary: $blue-500;
+$secondary: $gray-400;
+$success: $success-500;
+$warning: $warning-500;
+$danger: $error-400;
+
+// ACCORDION COLORS OVERRIDES
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+
+// ROW AND COLUMN GUTTERS
+// $spacer: 1rem;
+
+// $grid-gutter-width: 1.5rem;
+// $gutters: (
+//   0: 0,
+//   1: $spacer * 0.25,
+//   2: $spacer * 0.5,
+//   3: $spacer,
+//   4: $spacer * 1.5,
+//   5: $spacer * 3,
+//   6: $spacer * 6,
+//   7: $spacer * 7,
+// );
+
+$modal-fade-transform: scale(0.8);
+
+// IMPORT BOOTSTRAP 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

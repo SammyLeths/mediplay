@@ -1,0 +1,92 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.about-section {
+  padding: 20rem 0rem;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 8rem;
+    padding-bottom: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 18rem;
+    padding-bottom: 8rem;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: 8rem 0rem;
+  }
+
+  .about-content {
+    background: $blue-200;
+    z-index: 99;
+  }
+
+  .left-mock {
+    margin-top: -300px;
+    margin-bottom: -50px;
+    animation: bounce 0.8s cubic-bezier(0.17, 0.67, 0.78, 0.37) infinite
+      alternate;
+
+    @include media-breakpoint-up(md) {
+      width: 70%;
+      margin-top: -100px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: -250px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 100%;
+      margin-top: -100px;
+      margin-bottom: -50px;
+    }
+  }
+
+  .about-text {
+    padding-top: 100px;
+    padding-bottom: 170px;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 80px;
+      padding-bottom: 0px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  .about-intro {
+    @include mediplay;
+  }
+
+  .right-mock {
+    margin-top: -100px;
+    margin-bottom: -250px;
+    animation: bounce 0.8s cubic-bezier(0.17, 0.67, 0.78, 0.37) 0.8s infinite
+      alternate;
+
+    @include media-breakpoint-up(md) {
+      width: 70%;
+      //margin-top: -100px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: -250px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 100%;
+      margin-top: -100px;
+      margin-bottom: -50px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.featured-section {
+  .featured-heading {
+    padding-left: 7.1%;
+
+    @include media-breakpoint-up(md) {
+      padding-left: 1.1%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding-left: 7.1%;
+    }
+  }
+
+  .featured-wrapper {
+    background-color: $gray-200;
+  }
+
+  .featured-logo-row {
+    padding-right: 7.1%;
+
+    img {
+      width: 90px;
+
+      @include media-breakpoint-up(lg) {
+        width: 130px;
+      }
+    }
+  }
+
+  .featured-logo {
+    filter: grayscale(100%);
+    width: 130px;
+
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}

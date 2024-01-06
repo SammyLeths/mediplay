@@ -1,0 +1,17 @@
+@use "../custom" as *;
+
+// LOGO STYLE
+
+@mixin mediplay {
+  span {
+    color: $primary;
+    font-weight: bold;
+  }
+}
+
+@mixin mediplay-alt {
+  span {
+    color: white;
+    font-weight: bold;
+  }
+}

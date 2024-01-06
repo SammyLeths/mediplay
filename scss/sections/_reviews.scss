@@ -1,0 +1,43 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.reviews-section {
+  .client-review {
+    @include mediplay;
+  }
+
+  .blockquote {
+    i {
+      font-size: 4rem;
+    }
+  }
+
+  .review-text {
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: 75%;
+    }
+  }
+
+  .reviews-client {
+  }
+
+  .client-img {
+    width: 50px;
+    height: 50px;
+
+    @include media-breakpoint-up(lg) {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  .review-controls i {
+    cursor: pointer;
+  }
+
+  .review-controls i:hover {
+    color: $primary;
+  }
+}
