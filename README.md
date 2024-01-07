@@ -26,14 +26,14 @@
 <h3>Option 2 - Parcel development server</h3>
 
 <ul>
-<li>Run the following command "npx parcel index.html"</li>
+<li>From the terminal, run the following command "npx parcel index.html"</li>
 <li>Open the following link "http://localhost:1234/" in your browser</li>
 </ul>
 
 <h3>Option 3 - Generate a static dist folder</h3>
 
 <ul>
-<li>Run the following command "npx parcel build --public-url ./"</li>
+<li>From the terminal, run the following command "npx parcel build --public-url ./"</li>
 <li>From your systems file explorer, go into the dist folder</li>
 <li>Open "index.html" file in your browser</li>
 </ul>
