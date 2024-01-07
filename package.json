@@ -1,7 +1,7 @@
 {
   "name": "mediplay",
   "version": "1.0.0",
-  "description": "MediPlay - Gamified medication tracking application",
+  "description": "MediPlay - Gamified medication tracking application informational website",
   "source": "index.html",
   "scripts": {
     "compile:sass": "sass --watch scss:assets/css",
@@ -11,9 +11,10 @@
   "keywords": [
     "Mediplay",
     "Informational",
-    "website"
+    "website",
+    "medication tracking"
   ],
-  "author": "Sammy Leths",
+  "author": "Oluwaseyi Eyiowuawi",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.11.0",
