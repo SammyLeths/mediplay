@@ -6,6 +6,12 @@
 
 <p>Parcel was used as the module bundler for this project</p>
 
+<h2>Links</h2>
+
+<ul>
+  <li>Demo: <a href="https://mediplay.netlify.app/" target="_blank">https://mediplay.netlify.app/</a></li>
+</ul>
+
 <h2>Steps To Run The Project</h2>
 
 <ul>
