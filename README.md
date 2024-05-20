@@ -6,6 +6,10 @@
 
 <p>Parcel was used as the module bundler for this project</p>
 
+<h2>Preview</h2>
+
+![mediplay](https://github.com/SammyLeths/mediplay/assets/64320618/3d5c6e50-d9c8-4d8b-a784-a9238a04ba5a)
+
 <h2>Links</h2>
 
 <ul>
