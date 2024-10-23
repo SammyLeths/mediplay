@@ -12,6 +12,8 @@
 
 ![mediplay-website-wip-7](https://github.com/user-attachments/assets/d59c3246-701e-46bf-a4ab-b3e2fd272fa5)
 
+![mediplay-website-wip-8](https://github.com/user-attachments/assets/319d8644-7029-43ac-8ea2-42d288fb44c8)
+
 
 
 <h2>Links</h2>
