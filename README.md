@@ -10,7 +10,8 @@
 
 ![mediplay](https://github.com/SammyLeths/mediplay/assets/64320618/3d5c6e50-d9c8-4d8b-a784-a9238a04ba5a)
 
-![mediplay-home-wip-6](https://github.com/SammyLeths/mediplay/assets/64320618/300fff98-74e6-4cac-9fac-416867e2c908)
+![mediplay-website-wip-7](https://github.com/user-attachments/assets/d59c3246-701e-46bf-a4ab-b3e2fd272fa5)
+
 
 
 <h2>Links</h2>
