@@ -18,6 +18,7 @@
 
 <ul>
   <li>Demo: <a href="https://mediplay.netlify.app/" target="_blank">https://mediplay.netlify.app/</a></li>
+  <li>Design (Case Study): <a href="https://www.behance.net/gallery/190834875/MediPlay-Case-Study" target="_blank">https://www.behance.net/gallery/190834875/MediPlay-Case-Study</a></li>
 </ul>
 
 <h2>Steps To Run The Project</h2>
