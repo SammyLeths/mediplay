@@ -12,13 +12,20 @@
 
 ![mediplay-website-wip-7](https://github.com/user-attachments/assets/d59c3246-701e-46bf-a4ab-b3e2fd272fa5)
 
-
-
 <h2>Links</h2>
 
 <ul>
   <li>Demo: <a href="https://mediplay.netlify.app/" target="_blank">https://mediplay.netlify.app/</a></li>
   <li>Design (Case Study): <a href="https://www.behance.net/gallery/190834875/MediPlay-Case-Study" target="_blank">https://www.behance.net/gallery/190834875/MediPlay-Case-Study</a></li>
+</ul>
+
+<h2>Author's Links</h2>
+
+<ul>
+  <li>Portfolio - <a href="https://sammyleths.com" target="_blank">@SammyLeths</a></li>
+  <li>Linkedin - <a href="https://www.linkedin.com/in/eyiowuawi/" target="_blank">@SammyLeths</a></li>
+  <li>Twitter - <a href="https://twitter.com/SammyLeths" target="_blank">@SammyLeths</a></li>
+  <li>Buy me a Coffee - <a href="https://buymeacoffee.com/sammyleths" target="_blank"> @SammyLeths </a></li>
 </ul>
 
 <h2>Steps To Run The Project</h2>
